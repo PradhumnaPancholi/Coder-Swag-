@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="60" width="375" height="545"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="190" id="nad-5i-I0l">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="190" id="nad-5i-I0l" customClass="CategoryCell" customModule="Coder_Swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="190"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nad-5i-I0l" id="pZV-g2-wHy">
@@ -42,15 +42,27 @@
                                                         <constraint firstAttribute="height" constant="199" id="s5k-cL-kBa"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hoodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQ6-ZF-Ozl">
+                                                    <rect key="frame" x="136" y="72" width="103" height="45"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Fwk-rT-mhP" secondAttribute="trailing" id="2Ax-PI-Fsa"/>
                                                 <constraint firstItem="Fwk-rT-mhP" firstAttribute="top" secondItem="pZV-g2-wHy" secondAttribute="top" id="5ZB-mb-9af"/>
+                                                <constraint firstItem="KQ6-ZF-Ozl" firstAttribute="centerY" secondItem="Fwk-rT-mhP" secondAttribute="centerY" id="IG6-F9-AAm"/>
                                                 <constraint firstAttribute="bottom" secondItem="Fwk-rT-mhP" secondAttribute="bottom" id="M2u-Bm-9dC"/>
+                                                <constraint firstItem="KQ6-ZF-Ozl" firstAttribute="centerX" secondItem="Fwk-rT-mhP" secondAttribute="centerX" id="Ory-jS-1z2"/>
                                                 <constraint firstItem="Fwk-rT-mhP" firstAttribute="top" secondItem="pZV-g2-wHy" secondAttribute="top" id="dr5-gu-hC1"/>
                                                 <constraint firstItem="Fwk-rT-mhP" firstAttribute="leading" secondItem="pZV-g2-wHy" secondAttribute="leading" id="vvh-AD-kSv"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="categoryImage" destination="Fwk-rT-mhP" id="HJO-WV-pui"/>
+                                            <outlet property="categoryTitle" destination="KQ6-ZF-Ozl" id="tWz-Ud-PBC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -68,12 +80,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Coder Swag" id="frc-Ky-P1d"/>
                     <connections>
-                        <outlet property="categoryTable" destination="Eco-UY-pUn" id="6Ow-c7-S6I"/>
+                        <outlet property="categoryTable" destination="Eco-UY-pUn" id="ZVa-cd-jZF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231.19999999999999" y="-685.00749625187416"/>
+            <point key="canvasLocation" x="-1078" y="-822"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yKd-Fe-0eQ">
@@ -95,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7sT-M6-2oW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-932" y="-693"/>
+            <point key="canvasLocation" x="-167" y="-1527"/>
         </scene>
     </scenes>
     <resources>
