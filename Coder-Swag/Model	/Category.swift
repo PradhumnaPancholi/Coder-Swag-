@@ -12,8 +12,8 @@ struct Category{
     private(set) public var title: String
     private(set) public var categoryImage: String
     
-    init(title: String, categoryImage: String){
+    /*init(title: String, categoryImage: String){
         self.title = title
         self.categoryImage = categoryImage			
-    }
+    }*/
 }
