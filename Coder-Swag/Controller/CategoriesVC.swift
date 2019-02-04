@@ -34,6 +34,5 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         }
     }
 
-
 }
 
