@@ -20,26 +20,26 @@ class DataService{
     ]
     
     private let hoodies = [
-        Product(title: "Devslopes Logo Hoodie Black", price: "55" , imageName: "hoodie01.png"),
-        Product(title: "Devslopes Logo Hoodie Red", price: "56", imageName: "hoodie02.png"),
-        Product(title: "Devslopes Logo Hoodie Grey", price: "62", imageName: "hoodie03.png"),
-        Product(title: "Devslopes Hoodie Black", price: "53", imageName: "hoodie04.png")
+        Product(title: "Devslopes Graphic Logo Hoodie Black", price: "55" , imageName: "hoodie01.png"),
+        Product(title: "Devslopes Graphic Logo Hoodie Red", price: "56", imageName: "hoodie02.png"),
+        Product(title: "Devslopes Graphic Logo Hoodie Grey", price: "62", imageName: "hoodie03.png"),
+        Product(title: "Devslopes Graphic Black", price: "53", imageName: "hoodie04.png")
         
     ]
     
     private let hats = [
-    Product(title: "Desvlopes Logo Beanie Black", price: "15", imageName: "hat01.png"),
-    Product(title: "Devslopes Logo Hat Black", price: "9", imageName: "hat02.png"),
-    Product(title: "Devslopes Logo Hat White", price: "20", imageName: "hat03.png"),
-    Product(title: "Devslopes Logo Hat Grey", price: "18", imageName: "hat04.png")
+        Product(title: "Desvlopes Graphic Logo Beanie Black", price: "15", imageName: "hat01.png"),
+        Product(title: "Devslopes Graphic Logo Hat Black", price: "9", imageName: "hat02.png"),
+        Product(title: "Devslopes Graphic Logo Hat White", price: "20", imageName: "hat03.png"),
+        Product(title: "Devslopes Graphic Logo Hat Grey", price: "18", imageName: "hat04.png")
     ]
     
     private let shirts = [
-    Product(title: "Devslopes Logo T-shirt Black", price: "26", imageName: "shirt01.png"),
-    Product(title: "Devslopes Logo T-shirt Red", price: "28", imageName: "shirt03.png"),
-    Product(title: "Devslopes T-shirt White", price: "29", imageName: "shirt02.png"),
-    Product(title: "Devslopes T-shirt Grey", price: "23", imageName: "shirt04.png"),
-    Product(title: "Devslopes T-shirt Black", price: "24", imageName: "shirt05.png")
+        Product(title: "Devslopes Graphic Logo T-shirt Black", price: "26", imageName: "shirt01.png"),
+        Product(title: "Devslopes Graphic Logo T-shirt Red", price: "28", imageName: "shirt03.png"),
+        Product(title: "Devslopes Graphic T-shirt White", price: "29", imageName: "shirt02.png"),
+        Product(title: "Devslopes Graphic T-shirt Grey", price: "23", imageName: "shirt04.png"),
+        Product(title: "Devslopes Graphic T-shirt Black", price: "24", imageName: "shirt05.png")
     ]
     
     private let digitalGoodies = [Product]()
@@ -73,7 +73,7 @@ class DataService{
     func getHats() -> [Product] {
         return hats
     }
-
+    
     func getShirts() -> [Product] {
         return shirts
     }
