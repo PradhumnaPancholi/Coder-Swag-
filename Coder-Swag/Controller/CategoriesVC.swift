@@ -38,6 +38,11 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let category = DataService.instance.getCategories()[indexPath.row]
         performSegue(withIdentifier: "ProductsVC", sender: category)
+        //for back button customization//
+        let backButton = UIBarButtonItem()
+        backButton.title = ""
+        navigationItem.backBarButtonItem = backButton
+        
     }
     
     //to grab and pass category data into ProductsVC//

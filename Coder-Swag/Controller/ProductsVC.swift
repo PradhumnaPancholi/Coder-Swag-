@@ -25,6 +25,8 @@ class ProductsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     //to load products for passed category//
     func loadProducts(category: Category) {
         products = DataService.instance.getProducts(forCategoryTitle: category.title)
+        //to display category title//
+        navigationItem.title = category.title
         
     }
     
@@ -37,6 +39,7 @@ class ProductsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             let product = products[indexPath.row]
             cell.updateView(product: product)
             return cell
+           
         }
 		return ProductCell()
     }

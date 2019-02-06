@@ -115,17 +115,17 @@
                                 <rect key="frame" x="0.0" y="69" width="375" height="534"/>
                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QmT-eu-LSV">
-                                    <size key="itemSize" width="179" height="277"/>
+                                    <size key="itemSize" width="179" height="268"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="3uI-Er-VZZ" customClass="ProductCell" customModule="Coder_Swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="179" height="277"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="268"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="179" height="277"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="179" height="268"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Devslopes Logo Graphic T-shirt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYv-J3-Yhy">
@@ -152,12 +152,12 @@
                                         </view>
                                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="MYv-J3-Yhy" secondAttribute="trailing" id="4Ju-9y-rbk"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="MYv-J3-Yhy" secondAttribute="trailing" constant="1" id="4Ju-9y-rbk"/>
                                             <constraint firstItem="oph-Hm-Svi" firstAttribute="leading" secondItem="3uI-Er-VZZ" secondAttribute="leadingMargin" id="BGr-b0-1EC"/>
                                             <constraint firstItem="MYv-J3-Yhy" firstAttribute="top" secondItem="7ZA-7A-K0k" secondAttribute="bottom" constant="2" id="H3m-vM-FJA"/>
-                                            <constraint firstAttribute="bottom" secondItem="oph-Hm-Svi" secondAttribute="bottom" constant="2" id="Jbb-FR-LWE"/>
+                                            <constraint firstAttribute="bottom" secondItem="oph-Hm-Svi" secondAttribute="bottom" id="Jbb-FR-LWE"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="oph-Hm-Svi" secondAttribute="trailing" id="S27-7l-cVh"/>
-                                            <constraint firstItem="MYv-J3-Yhy" firstAttribute="leading" secondItem="3uI-Er-VZZ" secondAttribute="leadingMargin" id="g5E-X3-L4E"/>
+                                            <constraint firstItem="MYv-J3-Yhy" firstAttribute="leading" secondItem="3uI-Er-VZZ" secondAttribute="leadingMargin" constant="1" id="g5E-X3-L4E"/>
                                             <constraint firstAttribute="trailing" secondItem="7ZA-7A-K0k" secondAttribute="trailing" id="leG-Ko-lve"/>
                                             <constraint firstItem="7ZA-7A-K0k" firstAttribute="top" secondItem="3uI-Er-VZZ" secondAttribute="top" id="vC6-OH-G0o"/>
                                             <constraint firstItem="7ZA-7A-K0k" firstAttribute="leading" secondItem="3uI-Er-VZZ" secondAttribute="leading" id="wIO-hx-zVe"/>
